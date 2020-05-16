@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trending</title>
+
+</head>
+<style>
+	body{
+
+	background-image: url("tree.jpg");
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1500px 1750px;
+    opacity: 1.0;
+   }
+	table{
+			border: 1px solid black;
+		}
+	td{
+			border: 1px solid black;
+			font-size: 25px;
+		}
+	button{
+
+		transition: transform .4s;
+	}
+button:hover{
+	color: black;
+	transform: scale(1.1); 
+		}
+
+h2 {
+  width: 550px;
+  height: 100px;
+  background: url("leaf.jpg");
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+  font-size: 50px;
+  font-family: "Lucida Console", Courier, monospace;
+  text-decoration: underline;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+
+</style>
+<body>
+
+<h2>Trending Products</h2>
+<table>
+<tr>
+
+<td><button><img src="seedpen.jpg" height="400px" width="300px"><h1>Seed Pen</h1></button></td>
+<td><button><img src="seedpencil.jpg" height="400px" width="300px"><h1>Seed Pencil</h1></button></td>
+<td><button><img src="jutebags.jpg" height="400px" width="300px"><h1>Jute Bag</h1></button></td>
+<td><button><img src="bamboostraws.jpg" height="400px" width="300px"><h1>Bamboo Straws</h1></button></td>
+<td><button><img src="bamboobrushes.jpg" height="400px" width="300px"><h1>Bamboo Brushes</h1></button></td>
+</tr>
+
+
+
+<tr>
+<td><button><img src="jutepouch.jpg" height="400px" width="300px"><h1>Jute Pouch</h1></button></td>	
+<td><button><img src="shoe.jpeg" height="400px" width="300px"><h1>Jute Shoe</h1></button></td>
+<td><button><img src="utensil.jpg" height="400px" width="300px"><h1>Organic Utensil</h1></button></td>
+<td><button><img src="bottle.jpeg" height="400px" width="300px"><h1>Bamboo Bottle</h1></button></td>
+<td><button><img src="hat.jpg" height="400px" width="300px"><h1>Jute Hat</h1></button></td>
+</tr>
+
+
+
+</table>
+
+</body>
+</html>
